@@ -1,7 +1,13 @@
 "use strict";
 let x = 1001;
 console.log(x);
-function greeting(Name) {
-    console.log("Hello" + Name);
+function greeting(Name, Lastname, age) {
+    console.log("Hello" + Name + Lastname);
 }
-greeting("shubham");
+greeting("shubham", "Pawar", 18);
+function sum(a, b) {
+    return a + b;
+}
+//type inference
+const value = sum(1, 4);
+console.log(value);
