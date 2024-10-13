@@ -15,3 +15,11 @@ function sum(a:number,b:number) :number {
 const value=sum(1,4);
 console.log(value);
 
+
+function runafter1s(fn) {
+    setTimeout(fn,1000);
+}
+
+runafter1s(function() {
+    console.log("HI there");
+})
