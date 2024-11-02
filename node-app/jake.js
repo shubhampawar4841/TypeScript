@@ -75,3 +75,8 @@ function getLength(str) {
     console.log("After toLowerCase:", str.toLowerCase());
   }
   toLower("Hello World");
+
+function getSlice(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After slice:", str.slice(start, end));
+ 
