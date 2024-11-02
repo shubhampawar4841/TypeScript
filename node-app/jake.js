@@ -29,6 +29,9 @@ function getLength(str) {
     console.log("Original String:", str);
     console.log("After slice:", str.slice(start, end));
   }
+ function getSlice(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After slice:", str.slice(start, end));
  
   
   // substring
